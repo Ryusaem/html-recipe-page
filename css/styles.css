@@ -1,0 +1,19 @@
+.attribution { font-size: 11px; text-align: center; }
+
+.attribution a { color: hsl(228, 45%, 44%); }
+
+/* --- FOOTER --- */
+
+.footer {
+    height: 72px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+}
+
+.footer a {
+    text-decoration: none;
+    color: blue;
+    margin: -8px
+}
