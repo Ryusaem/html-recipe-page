@@ -2,6 +2,55 @@
 
 .attribution a { color: hsl(228, 45%, 44%); }
 
+/* --- BODY --- */
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #f3e5d8;
+    padding: 2em;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    height: 10%;
+    width: 50%;
+    padding: 20px;
+    border-radius: 3%;
+}
+
+.box1 img {
+    width: 100%;
+    border-radius: 3%;
+}
+
+.preparation {
+    background-color: #fff7fc;
+}
+
+.preparation h3 {
+    color: #9b7687;
+}
+
+.preparation ul li{
+    padding-left: 5%;
+    line-height: 1.5
+    ;
+}
+
+.nutrition table {
+    width: 100%;
+    border-collapse: collapse;
+    border: 1px solid #e0e0e0;
+}
+
+
+
+
 /* --- FOOTER --- */
 
 .footer {
